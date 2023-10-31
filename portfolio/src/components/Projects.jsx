@@ -71,7 +71,7 @@ const Projects = () => {
                                         <div>
                                             <a href={item.github} target="_blank" rel="noreferrer" className=" ">
                                                 <button className="text-white mx-auto py-3 my-2 w-full items-center bg-[#0F205E] hover:bg-blue-700 rounded-md">
-                                                    GIthub
+                                                    Github
                                                 </button></a>
                                         </div>
                                         <div>
