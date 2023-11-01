@@ -36,7 +36,7 @@ const Navbar = () => {
     <div className={
       !navState
         ? "z-10 top-0 fixed w-full h-[80px] flex justify-between items-center px-4  text-gray-300"
-        : "fixed top-0 left-0  right-0 h-[10vh] flex items-center justify-center opacity-100 z-[200] blur-effect-theme"
+        : "fixed top-0 left-0  right-0 pr-3 h-[10vh] flex items-center justify-center opacity-100 z-[200] blur-effect-theme"
     }>
       <div className="container pb-7">
         <span className=" ml-1"><img src={logo} className="w-[7rem] h-[6.5rem]" alt="logo" /></span>

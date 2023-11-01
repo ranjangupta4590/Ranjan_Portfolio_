@@ -39,12 +39,12 @@ const Projects = () => {
 
     return (
 
-        <div name="projects" className="w-full md:h-screen bg-[#010206] text-gray-300">
-            <hr className="max-w-[1200px] mx-auto " />
+        <div name="projects" className="w-full md:h-screen bg-[#010206] text-gray-300 pb-10">
+            <hr className="max-w-[1200px] mx-auto pb-9" />
             {/* <hr className="max-w-[1200px] mx-auto  flex  border-gray-100 dark:bg-white py-5 "></hr> */}
             <div className='max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full'>
 
-                <div className="pb-2">
+                <div className="pb-2 ml-5">
                     <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-green-600">
                         Projects Undertaken
                     </p>
@@ -58,25 +58,25 @@ const Projects = () => {
                             <div className="border-2 rounded-xl">
 
                                 <iframe width="270px" height="240px"
-                                    className=' rounded-t-xl'
-                                    src={`https://www.youtube.com/embed/${item.youtube_id}?autoplay=1&loop=1&controls=0&modestbranding=1&rel=0&showinfo=0" allow="accelerometer; autoplay;" allowfullscreen`}>
+                                    className=' rounded-t-xl justify-center items-center w-full'
+                                    src={`https://www.youtube.com/embed/${item.youtube_id}?autoplay=1&loop=1&controls=0&modestbranding=1&rel=0&showinfo=0" allow="accelerometer; autoplay;"`}>
                                 </iframe>
 
 
                                 {/* <video src={item.videoLink} autoPlay loop muted className="w-[350px]" type='video/mp4' /> */}
-                                <div className="text-center bg-[#081132] border rounded-b-xl px-5">
+                                <div className="text-center bg-[#081132] border rounded-b-xl px-4">
                                     <h2 className="pt-2 fw-bold text-white font-bold text-2xl">{item.name}</h2>
                                     {/* <p className="px-2 text-white"></p> */}
-                                    <div className='grid lg:grid-cols-2 md:grid-cols-1 mx-auto py-3 my-2 items-center justify-center gap-3'>
+                                    <div className='flex flex-row mx-auto w-full py-3 my-2 items-center justify-center gap-3'>
                                         <div>
                                             <a href={item.github} target="_blank" rel="noreferrer" className=" ">
-                                                <button className="text-white mx-auto py-3 my-2 w-full items-center bg-[#0F205E] hover:bg-blue-700 rounded-md">
+                                                <button className="text-white mx-auto py-3 px-6 my-2 w-full items-center bg-[#0F205E] hover:bg-blue-700 rounded-md">
                                                     Github
                                                 </button></a>
                                         </div>
                                         <div>
                                             <a href={item.link} target="_blank" rel="noreferrer" className=" ">
-                                                <button className="text-white mx-auto py-3 my-2 w-full items-center bg-[#0F205E] hover:bg-blue-700 rounded-md">
+                                                <button className="text-white mx-auto py-3 px-6 my-2 w-full items-center bg-[#0F205E] hover:bg-blue-700 rounded-md">
                                                     Website
                                                 </button></a>
                                         </div>

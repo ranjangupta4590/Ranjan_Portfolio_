@@ -27,7 +27,7 @@ const Home = () => {
                   Ranjan Kumar
                 </h1>
                 <h2 className="text-2xl sm:text-2xl font-bold text-[#f5f8ff]">
-                  I'm a{" "}
+                  I’m a{" "}
                   <Typical
                     loop={Infinity}
                     steps={[
@@ -68,9 +68,9 @@ const Home = () => {
               </div>
 
               {/* IMage Profile */}
-              <div className="image py-4  mx-auto justify-center items-center md:justify-center md:mx-auto ">
-                <div></div>
-                <div className="p-auto">
+              <div className="image py-4 mx-auto pr-8 justify-center items-center md:justify-center">
+                {/* <div></div> */}
+                <div className=" justify-center items-center">
                   <img
                     className="ml-10  rounded-[10px]"
                     src={PROFILE}
@@ -80,8 +80,8 @@ const Home = () => {
 
 
                   {/* Social Icon  */}
-                  <div className="flex ">
-                    <ul className="flex flex-row mx-auto pt-5 gap-2 pl-10 justify-center items-center">
+                  {/* <div className="flex "> */}
+                    <ul className="flex flex-row pt-5 pl-9 gap-2 justify-center items-center">
 
                       <SocialIcon network="linkedin" style={{ width: 35, height: 35 }} className="" url="https://www.linkedin.com/in/ranjan-kumar-2023s/" target="_blank" />
 
@@ -95,7 +95,7 @@ const Home = () => {
                       <SocialIcon network="telegram" style={{ width: 35, height: 35 }} target="_blank" url="https://drive.google.com/file/d/1qxomjc3s6Gu5ZJmyaaCXLJfF3ts93TC9/view?usp=drive_link" />
 
                     </ul>
-                  </div>
+                  {/* </div> */}
                 </div>
               </div>
             </div>
